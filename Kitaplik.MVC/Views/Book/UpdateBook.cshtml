@@ -1,0 +1,16 @@
+﻿@using Kitaplik.Entities.Concrete.Dtos
+@model BookDto
+
+<form action="UpdateBook" method="post">
+    <input type="text" name="Title" value="@Model.Title" />
+    <input type="text" name="Author" value="@Model.Author" />
+    <input type="text" name="ISBN" value="@Model.ISBN" />
+    <input type="text" name="Description" value="@Model.Description" />
+    <input type="text" name="ImageUrl" value="@Model.ImageUrl" />
+    <input type="text" name="ShelfLocation" value="@Model.ShelfLocation" />
+    <input type="date" name="PublishedDate" value="@Model.PublishedDate" />
+    <input type="date" name="DateAdded" value="@Model.DateAdded" />
+    <button>Güncelle</button>
+    @Html.ActionLink("Sil", "Delete", new { id = Model.Id })
+
+</form>

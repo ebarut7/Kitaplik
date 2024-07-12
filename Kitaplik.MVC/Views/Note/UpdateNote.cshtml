@@ -1,0 +1,16 @@
+﻿@using Kitaplik.Entities.Concrete.Dtos
+@model NoteDto
+
+<form action="UpdateNote" method="post">
+    <div>
+        <input type="text" name="Content" value="@Model.Content" />
+        <input type="text" name="IsShared" value="@Model.IsShared" />
+        <input type="date" name="DateCreated" value="@Model.DateCreated" />
+        <input type="date" name="DateUpdated" value="@Model.DateUpdated" />
+        <input type="text" name="BookId" value="@Model.BookId" />
+        <input type="text" name="ShareSettingId" value="@Model.ShareSettingId" />
+        <button>Güncelle</button>
+    </div>
+    @Html.ActionLink("Sil", "Delete", new { id = Model.Id })
+
+</form>

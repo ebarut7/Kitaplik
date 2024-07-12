@@ -1,0 +1,11 @@
+﻿@using Kitaplik.Entities.Concrete.Dtos
+@model NoteDto
+
+
+<h1>@Model.Content</h1>
+<h1>@Model.IsShared</h1>
+<h1>@Model.DateCreated</h1>
+<h1>@Model.DateUpdated</h1>
+<br />
+@Html.ActionLink("Düzenle", "UpdateNote", "Note", new { id = Model.Id })
+@Html.ActionLink("Sil", "Delete", new { id = Model.Id })

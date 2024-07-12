@@ -1,0 +1,13 @@
+﻿@using Kitaplik.Entities.Concrete.Dtos
+@model BookDto
+
+<img src="@Model.ImageUrl"/> <br />
+<h1>@Model.Title</h1>
+<h1>@Model.Author</h1>
+<h1>@Model.ShelfLocation</h1>
+<h1>@Model.Description</h1>
+<h1>@Model.DateAdded</h1>
+<h1>@Model.PublishedDate</h1>
+<br />
+@Html.ActionLink("Düzenle","UpdateBook","Book",new {id=Model.Id})
+@Html.ActionLink("Sil", "Delete", new { id = Model.Id })

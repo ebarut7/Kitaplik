@@ -1,0 +1,19 @@
+﻿@using Kitaplik.Entities.Concrete.Dtos
+@model List<NoteDto>
+
+
+<div>
+    @foreach (var item in Model)
+    {
+        <a href="/book/details/@item.Id"></a>
+        <div>
+            <img src="@item.Content" />
+            <h1>@item.IsShared</h1>
+            <h1>@item.DateCreated</h1>
+            <h1>@item.BookId</h1>
+            <h1>@item.ShareSettingId</h1>
+
+            @Html.ActionLink("Düzenle", "UpdateNote", "Note")
+        </div>
+    }
+</div>

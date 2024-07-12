@@ -1,0 +1,22 @@
+﻿@using Kitaplik.Entities.Concrete.Dtos
+@model List<BookDto>
+
+    <input type="text" name="filter" asp-controller="Book" asp-action="Index" formmethod="post" />
+    <button asp-controller="Book" asp-action="Index" formmethod="post">Ara</button>
+<div>
+    @foreach (var item in Model)
+    {
+        <a href="/book/details/@item.Id"></a>
+        <div>
+            <img src="@item.ImageUrl"/>
+            <h1>@item.Title</h1>
+            <h1>@item.Author</h1>
+            <h1>@item.ShelfLocation</h1>
+            <h1>@item.ISBN</h1>
+            <h1>@item.DateAdded</h1>
+            <h1>@item.Description</h1>
+
+            @Html.ActionLink("Düzenle","UpdateBok","Book")
+        </div>
+    }
+</div>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitaplik.Entities", "Kitaplik.Entities\Kitaplik.Entities.csproj", "{CE21BD46-BBA3-4396-B815-66CA1E65CC60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitaplik.DataAccess", "Kitaplik.DataAccess\Kitaplik.DataAccess.csproj", "{D636B1A6-FCC1-4BAF-B668-A287641811B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitaplik.Core", "Kitaplik.Core\Kitaplik.Core.csproj", "{4B2EA701-211B-4545-AAEB-C1C2DB3DC161}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitaplik.Business", "Kitaplik.Business\Kitaplik.Business.csproj", "{8ACD1BD9-FFA7-4A17-804A-A6D5296FEF71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitaplik.WebAPI", "Kitaplik.WebAPI\Kitaplik.WebAPI.csproj", "{1A825D2A-CC5F-49AE-A601-C856B92EAEC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitaplik.MVC", "Kitaplik.MVC\Kitaplik.MVC.csproj", "{0E2307EC-4D35-4B28-9EFC-23D9E56623A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE21BD46-BBA3-4396-B815-66CA1E65CC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE21BD46-BBA3-4396-B815-66CA1E65CC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE21BD46-BBA3-4396-B815-66CA1E65CC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE21BD46-BBA3-4396-B815-66CA1E65CC60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D636B1A6-FCC1-4BAF-B668-A287641811B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D636B1A6-FCC1-4BAF-B668-A287641811B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D636B1A6-FCC1-4BAF-B668-A287641811B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D636B1A6-FCC1-4BAF-B668-A287641811B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2EA701-211B-4545-AAEB-C1C2DB3DC161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2EA701-211B-4545-AAEB-C1C2DB3DC161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2EA701-211B-4545-AAEB-C1C2DB3DC161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2EA701-211B-4545-AAEB-C1C2DB3DC161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ACD1BD9-FFA7-4A17-804A-A6D5296FEF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACD1BD9-FFA7-4A17-804A-A6D5296FEF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACD1BD9-FFA7-4A17-804A-A6D5296FEF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACD1BD9-FFA7-4A17-804A-A6D5296FEF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A825D2A-CC5F-49AE-A601-C856B92EAEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A825D2A-CC5F-49AE-A601-C856B92EAEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A825D2A-CC5F-49AE-A601-C856B92EAEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A825D2A-CC5F-49AE-A601-C856B92EAEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2307EC-4D35-4B28-9EFC-23D9E56623A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2307EC-4D35-4B28-9EFC-23D9E56623A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2307EC-4D35-4B28-9EFC-23D9E56623A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2307EC-4D35-4B28-9EFC-23D9E56623A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EAE7110-9596-4A38-9E48-D7F0AFD5CC35}
+	EndGlobalSection
+EndGlobal

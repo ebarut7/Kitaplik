@@ -1,0 +1,18 @@
+﻿@using Kitaplik.Entities.Concrete.Dtos
+@model UserDto
+
+<form asp-action="Register" method="post">
+   <div class="form-group">
+       <input type="text" placeholder="UserName" class="input" name="UserName" ></input>  <br />   
+        <input type="email" placeholder="Email" class="input" name="Email"></input> <br />
+        <input type="password" placeholder="Password" class="input" name="Password"></input> <br />
+        <input type="text" placeholder="FirstName" class="input" name="FirstName"></input> <br />
+        <input type="text" placeholder="LastName" class="input" name="LastName"></input> <br />
+        <input type="text" placeholder="ProfilePictureUrl" class="input" name="ProfilePictureUrl"></input> <br />
+        <input type="datetime" placeholder="DateCreated" class="input" name="DateCreated"></input> <br />
+        <input type="datetime" placeholder="DateUpdated" class="input" name="DateUpdated"></input> <br />
+        <button class="btn">Kayıt Ol</button> <br />
+        @Html.ActionLink("Giriş Yap","Login","Auth")
+   </div> 
+
+</form>
